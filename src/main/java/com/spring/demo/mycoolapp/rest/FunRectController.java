@@ -27,10 +27,10 @@ public class FunRectController {
         return String.format("%s says start learning!", coachName);
     }
 
-    //expose new endpoint for workout
-//    @GetMapping("/fortune")
-//    public String getFortune() {
-//        return String.format("%s says You're going to have an amazing day!", coachName);
-//    }
+    //expose new endpoint for fortune
+    @GetMapping("/fortune")
+    public String getFortune() {
+        return String.format("%s says You're going to have an amazing day!", coachName);
+    }
 
 }
