@@ -15,4 +15,16 @@ public class FunRectController {
         return String.format("%s says Hello!", owner);
     }
 
+    //expose new endpoint for workout
+    @GetMapping("/workout")
+    public String getDailyWorkout() {
+        return String.format("%s says Workout!", owner);
+    }
+
+    //expose new endpoint for workout
+//    @GetMapping("/fortune")
+//    public String getFortune() {
+//        return String.format("%s says Workout!", owner);
+//    }
+
 }
